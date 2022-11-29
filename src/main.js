@@ -22,8 +22,8 @@ function orderByProps(obj, keys) {
         }
         result.push(array1)
     }
+    return result
 }
 
-orderByProps(obj, ["name", "level"])
 
-console.log(result)
+export{obj,orderByProps }
